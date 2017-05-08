@@ -8,7 +8,7 @@ int sum_of_multiples(int multiple, int max_no);
 int main() {
     int number1 = 3;
     int number2 = 5;
-    int product = 15;
+    int product = number1 * number2;
     int max_no = 999;
 
     int sum = sum_of_multiples(number1, max_no) + sum_of_multiples(number2, max_no) - sum_of_multiples(product, max_no);
